@@ -9,4 +9,4 @@
 *.tfplan
 
 # Ignore .terraform directories
-.terraform/
+.terraform*
