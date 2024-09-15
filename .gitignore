@@ -10,3 +10,6 @@
 
 # Ignore .terraform directories
 .terraform*
+
+# ignore dev work dir for modules 
+work_modules/ 
