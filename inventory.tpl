@@ -11,4 +11,5 @@ groups:
       native-ssh: true
       user: ${ssh_username}
       private-key: ${ssh_private_key_filename}
+      run-as: root
   %{ endfor ~}

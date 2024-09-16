@@ -15,3 +15,10 @@ module "ssp_provision_bastion_host" {
   proxmox_node_name = var.proxmox_node_name
   proxmox_network_bridge_name = var.proxmox_network_bridge_name
 }  
+
+# Run a local post-install script that checks if the bastion host is up and running
+resource "null_resource" "post_install_local" {
+  provisioner "local-exec" {
+    command = "./scripts/check_bastion_host_ready.sh ${module.ssp_provision_bastion_host.dhcp_ip} ${var.bastion_host_private_key_filename} ${var.bastion_host_username}"
+  }
+}
