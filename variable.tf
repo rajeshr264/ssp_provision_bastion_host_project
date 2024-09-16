@@ -26,6 +26,7 @@ variable "proxmox_machine_image_template_id" {
 variable "proxmox_bastion_host_name" {
   description = "Name of the bastion host"
   type        = string
+  default     = "bastion"
 }
 
 variable "proxmox_node_name" {
@@ -43,7 +44,7 @@ variable "proxmox_network_bridge_name" {
 variable "proxmox_host_endpoint" {
   description = "Endpoint of the proxmox host"
   type        = string
-  sensitive   = true
+  //sensitive   = true
 }
 
 variable "proxmox_host_username" {
