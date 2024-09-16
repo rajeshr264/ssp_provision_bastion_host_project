@@ -13,3 +13,6 @@
 
 # ignore dev work dir for modules 
 work_modules/ 
+
+# ignore generate puppet bolt inventory file
+bastion_inventory.yaml
