@@ -1,4 +1,5 @@
 #!/bin/bash 
+# This script checks if the Bastion server is ready to accept SSH connections
 
 if [ "$#" -ne 3 ]; then
     echo "Error: Illegal number of parameters"
