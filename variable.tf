@@ -23,12 +23,6 @@ variable "proxmox_machine_image_template_id" {
   default     = "9002"
 }
 
-variable "proxmox_bastion_host_name" {
-  description = "Name of the bastion host"
-  type        = string
-  default     = "bastion"
-}
-
 variable "proxmox_node_name" {
   description = "Name of the Proxmox host"
   type        = string
