@@ -12,8 +12,6 @@ SSH_PRIVATE_KEY_PATH=$2
 SSH_USER_NAME=$3
 
 #Wait until SSH on Bastion server is working
-keyPath=$SSH_PRIVATE_KEY_PATH
-bastionIP=$HOST_IP_ADDRESS
 maxConnectionAttempts=10
 sleepSeconds=10
 #Wait until SSH on Bastion server is working

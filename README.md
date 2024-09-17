@@ -1,6 +1,7 @@
 # Usage:
 On your workstation/laptop
 * Install [Terraform](https://developer.hashicorp.com/terraform/install). On Windows, you can install in the native terminal or my favorite, install Terraform on WSL/Ubuntu.
+* Install [Puppet Bolt](https://www.puppet.com/docs/bolt/latest/bolt_installing.html) 
 * Create a work directory, like *$HOME/bastion_host_work_dir*
 * clone this project
 * Create a *terraform.tfvars* file with the parameter values.

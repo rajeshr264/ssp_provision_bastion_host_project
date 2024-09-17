@@ -16,3 +16,8 @@ work_modules/
 
 # ignore generate puppet bolt inventory file
 bastion_inventory.yaml
+
+# ignore bolt log files
+bolt-debug.log
+.rerun.json 
+
