@@ -1,3 +1,5 @@
+# Self-service Platform (SSP) 
+
 # Usage:
 On your workstation/laptop
 * Install [Terraform](https://developer.hashicorp.com/terraform/install). On Windows, you can install in the native terminal or my favorite, install Terraform on WSL/Ubuntu.

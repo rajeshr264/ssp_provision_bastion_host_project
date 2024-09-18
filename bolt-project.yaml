@@ -1,3 +1,4 @@
 ---
 name: ssp_provision_bastion_host_project
-modules: []
+modulepath:
+  - work_modules
